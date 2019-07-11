@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 const multer = require('multer');
 const upload = multer();
-// const todoLists = {
-//   'Todo List': [],
-// };
 const todoLists = [{ title: 'Todo list', todos: [] }];
 
 const h = (element, children) => {
